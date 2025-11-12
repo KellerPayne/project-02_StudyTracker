@@ -26,7 +26,7 @@ Short demo (120s): [Demo Video (Google Drive)](https://drive.google.com/file/d/1
 
 ### Live Demo
 Hosted via GitHub Pages:
-    https://github.com/KellerPayne/project-02_StudyTracker
+    [https://github.com/KellerPayne/project-02_StudyTracker](https://kellerpayne.github.io/project-02_StudyTracker/)
 
 *(Use hash routing or a 404.html redirect if you deploy as an SPA.)*
 
@@ -97,4 +97,5 @@ Libraries:
 
 Author: Keller Payne
 Course: CSCI 4208 - Developing Advanced Web Applications
+
 
