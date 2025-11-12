@@ -18,9 +18,10 @@
 - Demo video: `/docs/media/demo.mp4`.
 - Screenshots: `/docs/media/screenshot-1.png`.
 - Release tag / commit: `v1.0-full`.
-- Deployment:
+- Deployment: https://kellerpayne.github.io/project-02_StudyTracker/
 
 ## C. Variance and Notes
 - Added: background image and attribution for visual polish.
 - Deferred: session import/export feature (out of scope for final demo).
+
 - Lesson: modularizing `ThemeManager` and `GoalManager` simplified init flow and improved readability.
