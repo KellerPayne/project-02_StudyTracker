@@ -16,11 +16,12 @@
 
 ## B. Evidence:
 - Project board (filtered to Spring-2 issues).
-- Demo GIF (`/docs/media/mvp.gif`) showing boot -> GET -> timer -> PUT -> reload
+- Demo GIF (`https://drive.google.com/file/d/16OszFeqqx6xMXKaaHPxUaFLHCZ9oiaIM/view?usp=sharing`) showing boot -> GET -> timer -> PUT -> reload
 - Release tag / commit: `v0.1-mvp`.
 - Deploy/Run instructions verified locally and in README.
 
 ## C. Variance & Notes
 - Added: auto-pause when window loses focus to prevent inaccurate timing.
 - Deferred: data-chart visualization (moved to Spring 3).
+
 - Lesson: localStorage merge logic simplified timer persistence flow.
