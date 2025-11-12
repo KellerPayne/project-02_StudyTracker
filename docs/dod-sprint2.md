@@ -16,7 +16,7 @@
 
 ## B. Evidence:
 - Project board (filtered to Spring-2 issues).
-- Demo GIF (`https://drive.google.com/file/d/16OszFeqqx6xMXKaaHPxUaFLHCZ9oiaIM/view?usp=sharing`) showing boot -> GET -> timer -> PUT -> reload
+- [Demo GIF](https://drive.google.com/file/d/16OszFeqqx6xMXKaaHPxUaFLHCZ9oiaIM/view?usp=sharing) showing boot -> GET -> timer -> PUT -> reload
 - Release tag / commit: `v0.1-mvp`.
 - Deploy/Run instructions verified locally and in README.
 
@@ -25,3 +25,4 @@
 - Deferred: data-chart visualization (moved to Spring 3).
 
 - Lesson: localStorage merge logic simplified timer persistence flow.
+
