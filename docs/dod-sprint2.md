@@ -21,8 +21,8 @@
 - Deploy/Run instructions verified locally and in README.
 
 ## C. Variance & Notes
-- Added: auto-pause when window loses focus to prevent inaccurate timing.
 - Deferred: data-chart visualization (moved to Spring 3).
 
 - Lesson: localStorage merge logic simplified timer persistence flow.
+
 
