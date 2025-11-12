@@ -18,7 +18,7 @@ Timer Screenshots:
 - [Timer Screenshot 1 (Light Mode)](docs/media/screenshot-1.png)
 - [Timer Screenshot 2 (Dark Mode)](docs/media/screenshot-2.png) 
 
-Short demo (120s): [Demo Video (docs/media/demo.mp4)](docs/media/demo.mp4)
+Short demo (120s): [Demo Video (Google Drive)](https://drive.google.com/file/d/1EOprpyl4Pfr0xCjwRFvo6i_Zn98KVSG3/view?usp=sharing)
 
 ---
 
@@ -97,3 +97,4 @@ Libraries:
 
 Author: Keller Payne
 Course: CSCI 4208 - Developing Advanced Web Applications
+
