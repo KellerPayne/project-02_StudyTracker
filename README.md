@@ -34,7 +34,7 @@ Hosted via GitHub Pages:
 ```bash
 git clone https://github.com/KellerPayne/project-02_StudyTracker.git
 cd project-02_StudyTracker
-python http-server
+python http.server
 ```
 
 Then open http://localhost8000 in your browser.
@@ -97,5 +97,6 @@ Libraries:
 
 Author: Keller Payne
 Course: CSCI 4208 - Developing Advanced Web Applications
+
 
 
