@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Study Tracker</title>
+        <link rel="stylesheet" href="./styles/styles.css">
+        <link rel="icon" href="./assets/favicon.png">
+    </head>
+    <body>
+
+        <!-- Styling container for title information -->
+        <div class="title-container">
+            <header>
+                <h1>Study Tracker</h1>
+                <button id="theme-toggle">Light/Dark Mode</button>
+            </header>
+        </div>
+
+        <!-- Styling container -->
+        <div class="container">
+            <!-- Styling container for subject information -->
+            <div id="subject-input">
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" placeholder="e.g., Computer Science"/>
+            </div>
+
+            <!-- Styling container for timer -->
+            <div id="timer-display">00:00:00</div>
+
+            <!-- Styling container that contains controls for timer -->
+            <div id="controls">
+                <button id="start-btn">Start</button>
+                <button id="stop-btn">Stop</button>
+                <button id="reset-btn">Reset</button>
+            </div>
+
+            <!-- Styling container for quote -->
+            <div id="quote">Loading quote...</div>
+        </div>
+
+        <!-- Study History Card -->
+        <div class="container history-card">
+            <h2> Study History </h2>
+
+            <!-- Weekly Summary Start -->
+            <div id="weekly-summary">
+                <p>Total study time this week: 0 hrs</p>
+
+                <!-- Weekly Progress and Bar Chart Start -->
+                <div id="weekly-progress-container">
+                    <div id="weekly-progress-bar"></div>
+                </div>
+                <!-- Weekly Progress and Bar Chart End -->
+
+                <p id="weekly-goal-label">Goal: 10 hrs</p>
+                
+                <!-- Goal settings container start -->
+                <div id="goal-settings">
+                    <input type="number" id="goal-input" placeholder="Enter weekly goal (hrs)" min="1" step="0.5"/>
+                    <button id="save-goal-btn">Save Goal</button>
+                </div>
+                <!-- Goal settings container end -->
+            
+            </div>
+            <!-- Weekly Summary End -->
+
+            <!-- Overall Summary Start -->
+            <div id="summary">
+                <p>No data yet - start studying to see totals per subject!</p>
+            </div>
+            <canvas id="summary-chart" width="400" height="200"></canvas>
+            <ul id="history-list">
+                <li>No sessions yet. Start studying to see your history here!</li>
+            </ul>
+            <!-- Overall Summary End -->
+
+        </div>
+
+        <!-- Loads Chart.js libray from cdn -->
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <!-- Loads main.js -->
+        <script type="module" src="./scripts/main.js"></script>
+
+        <footer class="image-credit">
+            Find more background images at <a href="https://www.freepik.com/">FreePik</a>!
+        </footer>
+    </body>
+</html>
